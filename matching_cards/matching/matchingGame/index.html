@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Matching Game</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+	<body>	
+	<div id=headline><h1>Matching Cards Game</h1></div>
+		<div id="container">
+			<header>
+			
+			</header> 	
+			<section id=box>
+				<div class=cards>
+				<div class=slot ><img id="card1" class = card src="../images/back-of-card.png"></div>
+				<div class=slot ><img id="card2" class = card src="../images/back-of-card.png"></div>
+				<div class=slot ><img id="card3" class = card src="../images/back-of-card.png"></div>
+				<div class=slot ><img id="card4" class = card src="../images/back-of-card.png"></div>
+				</div>
+				<div id="winText">It's simple. Get two pairs to match!</div>
+			<div class=controls>
+			<button id=start>Start game</button>
+			<button id=reset>Reset game</button>
+			<input id= cheat type="checkbox">Cheat mode</input>
+			</div>	
+			</section>
+		
+			<footer>
+				&copy; General Assembly
+			</footer>
+		</div><!-- #container --> 
+		<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,167 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.capHanger, .slide, .navBut{
+	float: left; 
+
+}
+
+/*************************/
+body{
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     width:99%;
+     margin:auto;
+     font-size:1em;
+     font-family: 'Raleway', sans-serif;
+}
+body, #wrapper, #capDisplay, .fTab{
+     margin: auto;
+}
+a, button, h1, h2, h3, .links {
+     font-family: 'Libre Baskerville', serif;
+}
+h1, h3, .navBut{
+text-align: center;
+}
+h1{
+     font-size:3em;
+}
+h2, section, #userStyle{
+     clear:both;
+}
+p, .fTab{
+     width:85%;}
+section{
+     padding:1em 2em;
+     margin:1em 0;
+     background-color: rgba(66,134,244,.1);
+}
+
+table{
+     margin:2em auto;
+     height:26em;
+     width:20em;
+}
+a{text-decoration:none;
+color:black;}
+img.capsule{
+width:100%;
+display:block;
+object-fit: contain;
+}
+.slide, .navBut, #userStyle button, #navBar{
+     clear: none;
+}
+
+#userStyle button{
+     background-color: #FFF;
+     border:none;
+     width:7%;
+     margin:0 auto;
+}
+
+.navBut{
+     font-size: 1.5em;
+     padding:1em .5em; 
+     color: black;
+     width: 49%; 
+     border: 1px solid black;  
+     margin:0 .5% 0 .5%;
+     }
+.slide{
+     margin-left:0;
+     width:30em;
+     height:auto;
+     display:block;
+     -webkit-transition:all 1.0s ease-in-out;
+  -moz-transition:all 1.0s ease-in-out;
+  -o-transition:all 1.0s ease-in-out;
+  transition:all 1.0s ease-in-out;
+}
+
+.fTab{
+     height:95%;
+}
+.moveLeft{
+     margin-left:-60em;
+}
+
+.capHanger{
+  margin:.25em;
+  width:5em;
+  height:5em;
+  object-fit:cover;
+}
+#capDisplay, #map{
+     width:80%;
+}
+#userStyle{
+     width:90%;
+     margin: .7em auto;
+
+}
+#styleTable{
+     background-color: white;
+     margin:2em auto;
+     width:23em;
+     height:30em;
+}
+#wrapper{
+     width:30em;
+     height:auto;
+     overflow:hidden;
+}
+#container{
+     width: 90em;
+     height: 200px;
+}
+#navBar{
+     height:4.7em;
+     width:100%;
+}
+
+
+#map{
+    margin:1% 10%;
+     height:15em;
+   }
+
+
+
